@@ -1,7 +1,7 @@
 # ciml-summer-institute-2025
 Repository for the CIML 2025 Summer Institute training materials.
 
-## Website: [https://na.eventscloud.com/website/83697/home-ciml/]
+## Website: https://na.eventscloud.com/website/83697/home-ciml/
 
 ## Interactive Videos
 * A full catalog of all our trainings at SDSC can be found [here](https://education.sdsc.edu/training/interactive/?q=).

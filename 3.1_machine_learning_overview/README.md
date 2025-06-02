@@ -2,7 +2,7 @@
 
 **Date:** Wednesday, June 25, 2025
 
-**Summary**: Overview of deep learning concepts, including layers, architectures, applications, and libraries.
+**Summary**: Brief review of machine learning concepts.
 
 **Presented by:** [Mai Nguyen](https://www.sdsc.edu/research/researcher_spotlight/nguyen_mai.html) (mhnguyen at ucsd.edu) 
 

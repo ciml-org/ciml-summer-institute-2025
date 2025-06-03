@@ -2,7 +2,7 @@
 
 **SESSION:** 0_preparation
 
-## Instructions:
+## Instructions @ ALL
 You will get the most out of the CIML Summer Institute if you are prepared prior to the event. By brushing up on your knowledge of Linux and installing all necessary software on your laptop before the event, you’ll be able to focus your attention on the skills and topics that are most relevant to machine learning.
 
 This section contains a set of detailed start-up instructions, beginning with setting up your account and connecting to Expanse, to configuring your laptop for running visualization software. Please read the documents and exercises carefully, and complete all necessary steps before event. Feel free to ask questions or if you have any problems with the start-up tasks
@@ -18,7 +18,7 @@ This section contains a set of detailed start-up instructions, beginning with se
   * [Slack](#slack)
   * [Zoom](#zoom)
 
-## Expanse User Guide <a name="expanse-guide"></a>
+## Expanse User Guide <a name="expanse-guide"></a>  @ ALL
 Please read the Expanse user guide and familiarize yourself with the hardware, file systems, batch job submission, compilers and modules. The guide can be found here:
 * [Expanse User Guide](https://www.sdsc.edu/support/user_guides/expanse.html)
 * Expanse Landing Page: https://expanse.sdsc.edu
@@ -28,7 +28,7 @@ Note: if you have any difficulties getting set up, please contact Institute staf
   [Back to Top](#top)
 <hr>
   
-##  HPC Systems Accounts: <a name="accounts"></a>
+##  HPC Systems Accounts: <a name="accounts"></a> @Nicole/Marty
 You will need a training account to access SDSC’s Expanse HPC system for the CIML Institute. We will be creating this account for you. 
 
 An email will be sent from consult@sdsc.edu with the subject line "CIML 2025 Summer Institute: Account Set-Up" that will include your training account username and password and instructions.
@@ -44,7 +44,7 @@ This training account may be used:
 [Back to Top](#top)
 <hr>
 
-##  Large Language Model Accounts: <a name="llm-accounts"></a>
+##  Large Language Model Accounts: <a name="llm-accounts"></a>  @ Mai/Paul
 Each participant will need to sign-up for a free account for the following, which will be used during the LLM sessions on day 3: 
 * ChatGPT: [https://chat.openai.com/auth/login](https://chat.openai.com/auth/login)
 * Gemini: [https://gemini.google.com/](https://gemini.google.com/)
@@ -52,7 +52,7 @@ Each participant will need to sign-up for a free account for the following, whic
 [Back to Top](#top)
 <hr>
   
-## Basic Skills <a name="basic-skills"></a>
+## Basic Skills <a name="basic-skills"></a>  @ Mary
 There are several basic skills needed in order to access and run jobs on HPC systems. There are two GitHub repositories with several mini-tutorials that you can access:
 * Basic HPC Linux Skills: https://github.com/sdsc-hpc-training-org/basic_skills
 * HPC Security:  https://github.com/sdsc-hpc-training-org/hpc-security
@@ -66,7 +66,7 @@ There are several basic skills needed in order to access and run jobs on HPC sys
 [Back to Top](#top)
 <hr>
 
- ##  Computer Requirements <a name="comp-req"></a>
+ ##  Computer Requirements <a name="comp-req"></a> @ Cindy
 * You will need to bring your own laptop for the summer institute. This will be used both for running software locally and connecting to SDSC’s supercomputers.
 * WiFi will be available throughout the SDSC building
 * Remember your charger. There will be extension cords throughout the room for charging devices
@@ -74,7 +74,7 @@ There are several basic skills needed in order to access and run jobs on HPC sys
 [Back to Top](#top)
 <hr>
  
- ##  GitHub, Slack, and Zoom  <a name="Github-Slack-Zoom"></a>
+ ##  GitHub, Slack, and Zoom  <a name="Github-Slack-Zoom"></a> @ Cindy
  
 ### Github: <a name="github"></a>
 * Training material will be located on the CIML Summer Institute [GitHub repo](https://github.com/ciml-org/ciml-summer-institute-2025).

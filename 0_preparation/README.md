@@ -77,7 +77,7 @@ There are several basic skills needed in order to access and run jobs on HPC sys
  ##  GitHub, Slack, and Zoom  <a name="Github-Slack-Zoom"></a>
  
 ### Github: <a name="github"></a>
-* Training material will be located on the CIML Summer Institute [GitHub repo](https://github.com/ciml-org/ciml-summer-institute-2024).
+* Training material will be located on the CIML Summer Institute [GitHub repo](https://github.com/ciml-org/ciml-summer-institute-2025).
 * One of the hands-on sessions will require a GitHub account.
   * If you do not already have one, you can create a free personal GitHub account [here](https://docs.github.com/en/github/getting-started-with-github/signing-up-for-github/signing-up-for-a-new-github-account). 
   * For basic GitHub usage on SDSC systems, see here: https://github.com/sdsc-hpc-training-org/basic_skills/tree/master/using_github

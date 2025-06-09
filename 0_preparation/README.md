@@ -47,8 +47,9 @@ This training account may be used:
 ##  Large Language Model Accounts: <a name="llm-accounts"></a>  @ Mai/Paul
 We recommend each participant sign-up for a free account, unless you already have an account, of the following: 
 * ChatGPT: [https://chat.openai.com/auth/login](https://chat.openai.com/auth/login)
-* Gemini: [https://gemini.google.com/](https://gemini.google.com/)
 * Hugging Face [https://huggingface.co/](https://huggingface.co/)
+
+_Note: this is not required, but recommend, if you would follow along with the sessions on day 3._
 
 [Back to Top](#top)
 <hr>

@@ -8,8 +8,8 @@ You will get the most out of the CIML Summer Institute if you are prepared prior
 This section contains a set of detailed start-up instructions, beginning with setting up your account and connecting to Expanse, to configuring your laptop for running visualization software. Please read the documents and exercises carefully, and complete all necessary steps before event. Feel free to ask questions or if you have any problems with the start-up tasks
 
 <a name="top">Contents
-* [Expanse User Guide](#expanse-guide)
 * [HPC Systems Accounts](#accounts)
+* [Expanse User Guide](#expanse-guide)
 * [Large Language Model (LLM) Accounts](#llm-accounts)
 * [Basic Skills](#basic-skills)
 * [Computer Requirements](#comp-req)
@@ -18,16 +18,6 @@ This section contains a set of detailed start-up instructions, beginning with se
   * [Slack](#slack)
   * [Zoom](#zoom)
 
-## Expanse User Guide <a name="expanse-guide"></a>
-Please read the Expanse user guide and familiarize yourself with the hardware, file systems, batch job submission, compilers and modules. The guide can be found here:
-* [Expanse User Guide](https://www.sdsc.edu/support/user_guides/expanse.html)
-* Expanse Landing Page: https://expanse.sdsc.edu
-
-Note: if you have any difficulties getting set up, please contact Institute staff at consult@sdsc.edu.
-
-  [Back to Top](#top)
-<hr>
-  
 ##  HPC Systems Accounts: <a name="accounts"></a>
 You will need a training account to access SDSC’s Expanse HPC system for the CIML Institute. We will be creating this account for you. 
 
@@ -44,6 +34,16 @@ This training account may be used:
 [Back to Top](#top)
 <hr>
 
+## Expanse User Guide <a name="expanse-guide"></a>
+Please read the Expanse user guide and familiarize yourself with the hardware, file systems, batch job submission, compilers and modules. The guide can be found here:
+* [Expanse User Guide](https://www.sdsc.edu/support/user_guides/expanse.html)
+* Expanse Landing Page: https://expanse.sdsc.edu
+
+Note: if you have any difficulties getting set up, please contact Institute staff at consult@sdsc.edu.
+
+  [Back to Top](#top)
+<hr>
+  
 ##  Large Language Model Accounts: <a name="llm-accounts"></a>
 We recommend each participant sign-up for a free account, unless you already have an account, of the following: 
 * ChatGPT: [https://chat.openai.com/auth/login](https://chat.openai.com/auth/login)

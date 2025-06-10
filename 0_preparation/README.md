@@ -8,7 +8,7 @@ You will get the most out of the CIML Summer Institute if you are prepared prior
 This section contains a set of detailed start-up instructions, beginning with setting up your account and connecting to Expanse, to configuring your laptop for running visualization software. Please read the documents and exercises carefully, and complete all necessary steps before event. Feel free to ask questions or if you have any problems with the start-up tasks
 
 <a name="top">Contents
-* [HPC Systems Training Account](#accounts)
+* [HPC System Training Account](#accounts)
 * [Expanse User Guide](#expanse-guide)
 * [Large Language Model (LLM) Accounts](#llm-accounts)
 * [Basic Skills](#basic-skills)
@@ -18,7 +18,7 @@ This section contains a set of detailed start-up instructions, beginning with se
   * [Slack](#slack)
   * [Zoom](#zoom)
 
-##  HPC Systems Training Account: <a name="accounts"></a>
+##  HPC System Training Account: <a name="accounts"></a>
 You will need a training account to access SDSC’s Expanse HPC system for the CIML Institute. We will be creating this account for you. 
 
 An email will be sent from consult@sdsc.edu with the subject line "CIML 2025 Summer Institute: Account Set-Up" that will include your training account username and password and instructions.

@@ -54,7 +54,7 @@ _Note: this is not required, but recommend, if you would follow along with the s
 [Back to Top](#top)
 <hr>
   
-## Basic Skills <a name="basic-skills"></a>  @ Mary
+## Basic Skills <a name="basic-skills"></a>
 There are several basic skills needed in order to access and run jobs on HPC systems. There are two GitHub repositories with several mini-tutorials that you can access:
 * Basic HPC Linux Skills: https://github.com/sdsc-hpc-training-org/basic_skills
 * HPC Security:  https://github.com/sdsc-hpc-training-org/hpc-security

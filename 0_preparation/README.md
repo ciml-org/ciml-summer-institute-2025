@@ -18,7 +18,7 @@ This section contains a set of detailed start-up instructions, beginning with se
   * [Slack](#slack)
   * [Zoom](#zoom)
 
-## Expanse User Guide <a name="expanse-guide"></a>  @ ALL
+## Expanse User Guide <a name="expanse-guide"></a>
 Please read the Expanse user guide and familiarize yourself with the hardware, file systems, batch job submission, compilers and modules. The guide can be found here:
 * [Expanse User Guide](https://www.sdsc.edu/support/user_guides/expanse.html)
 * Expanse Landing Page: https://expanse.sdsc.edu
@@ -28,7 +28,7 @@ Note: if you have any difficulties getting set up, please contact Institute staf
   [Back to Top](#top)
 <hr>
   
-##  HPC Systems Accounts: <a name="accounts"></a> @Nicole/Marty
+##  HPC Systems Accounts: <a name="accounts"></a>
 You will need a training account to access SDSC’s Expanse HPC system for the CIML Institute. We will be creating this account for you. 
 
 An email will be sent from consult@sdsc.edu with the subject line "CIML 2025 Summer Institute: Account Set-Up" that will include your training account username and password and instructions.
@@ -39,12 +39,12 @@ As a reminder, we are asking all attendees to use the training accounts that we 
 This training account may be used:
   * Via SSH directly to login.expanse.sdsc.edu
   * Via a special page on the Expanse Portal: https://portal.expanse.sdsc.edu/training
-  * * For this institute, please do not use portal.expanse.sdsc.edu.
+   * For this institute, please do not use portal.expanse.sdsc.edu.
 
 [Back to Top](#top)
 <hr>
 
-##  Large Language Model Accounts: <a name="llm-accounts"></a>  @ Mai/Paul
+##  Large Language Model Accounts: <a name="llm-accounts"></a>
 We recommend each participant sign-up for a free account, unless you already have an account, of the following: 
 * ChatGPT: [https://chat.openai.com/auth/login](https://chat.openai.com/auth/login)
 * Hugging Face [https://huggingface.co/](https://huggingface.co/)
@@ -68,15 +68,16 @@ There are several basic skills needed in order to access and run jobs on HPC sys
 [Back to Top](#top)
 <hr>
 
- ##  Computer Requirements <a name="comp-req"></a> @ Cindy
+ ##  Computer Requirements <a name="comp-req"></a>
 * You will need to bring your own laptop for the summer institute. This will be used both for running software locally and connecting to SDSC’s supercomputers.
-* WiFi will be available throughout the SDSC building
+* WiFi will be available throughout the SDSC building using either UCSD-Guest or eduroam
+  *  Learn more about using wifi as a Guest at UC San Diego: [https://blink.ucsd.edu/technology/network/connections/wireless/guest.html#1-if-your-home-institution-is-eduroam-enabled](https://blink.ucsd.edu/technology/network/connections/wireless/guest.html#1-if-your-home-institution-is-eduroam-enabled)
 * Remember your charger. There will be extension cords throughout the room for charging devices
 
 [Back to Top](#top)
 <hr>
  
- ##  GitHub, Slack, and Zoom  <a name="Github-Slack-Zoom"></a> @ Cindy
+ ##  GitHub, Slack, and Zoom  <a name="Github-Slack-Zoom"></a>
  
 ### Github: <a name="github"></a>
 * Training material will be located on the CIML Summer Institute [GitHub repo](https://github.com/ciml-org/ciml-summer-institute-2025).
@@ -89,7 +90,7 @@ There are several basic skills needed in order to access and run jobs on HPC sys
 * See "Preparation Information | CIML Summer Institute 2025" email received for the link to join the Slack workspace for this institute.                     
 
 ### Zoom:  <a name="zoom"></a>
-* We will be using Zoom for preparation day on Tuesday, June 17, 2025, from 9am-11am (Pacific Time).
+* We will be using Zoom for preparation day on Tuesday, June 17, 2025, from 9am - 11am (Pacific Time).
 * You will need to install the latest [Zoom](https://zoom.us/download) client, which is available for Windows, MacOS and Linux. Once installed, you can test your microphone and camera interface with Zoom [here](https://zoom.us/test). You can find more information on Zoom system requirements, including bandwidth requirements [here](https://support.zoom.us/hc/en-us/articles/201362023-System-Requirements-for-PC-Mac-and-Linux).  
 
 Connection details are sent  as a calendar invite to all CIML participants. You should have received an invite for the preparation day on Tuesday, June 17, 2025, from 9am - 11am (Pacific Time). If you did not receive this an invite, please contact cwong@sdsc.edu.

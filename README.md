@@ -53,7 +53,7 @@ All times are in Pacific time.
 
 [Back to Top](#top)
 
-### Deep Learning (Wednesday, 06/25/25) <a name="#agenda-deep-learning"></a>
+### Deep Learning (Wednesday, 06/25/25)  <a name="agenda-deep-learning"></a>
 | **TIME (Pacific time)**       | **TOPIC** | **PRESENTER** |
 | -------------------- | ----------- | ----------- |
 | 8:00 am - 8:30 am | Light Breakfast & Check-in |    |
@@ -70,7 +70,7 @@ All times are in Pacific time.
 
 [Back to Top](#top)
 
-### Scalable Machine Learning & Large Language Model (Thursday, 06/26/25) <a name="#agenda-scalable-ml-LLM"></a>
+### Scalable Machine Learning & Large Language Model (Thursday, 06/26/25) <a name="agenda-scalable-ml-LLM"></a>
 | **TIME (Pacific time)** | **TOPIC** | **PRESENTER** |
 | -------------------- | ----------- | ----------- |
 | 8:00 am - 8:30 am  | Light Breakfast & Check-in |    |

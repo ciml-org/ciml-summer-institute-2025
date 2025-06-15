@@ -71,7 +71,7 @@ There are several basic skills needed in order to access and run jobs on HPC sys
  ##  Computer Requirements <a name="comp-req"></a>
 * You will need to bring your own laptop for the summer institute. This will be used both for running software locally and connecting to SDSC’s supercomputers.
 * WiFi will be available throughout the SDSC building using either UCSD-Guest or eduroam
-  *  Learn more about using wifi as a Guest at UC San Diego: [https://blink.ucsd.edu/technology/network/connections/wireless/guest.html#1-if-your-home-institution-is-eduroam-enabled](https://blink.ucsd.edu/technology/network/connections/wireless/guest.html#1-if-your-home-institution-is-eduroam-enabled)
+  *  Learn more about using wifi as a Guest at UC San Diego: [https://blink.ucsd.edu/technology/network/connections/wireless/guest.html](https://blink.ucsd.edu/technology/network/connections/wireless/guest.html)
 * Remember your charger. There will be extension cords throughout the room for charging devices
 
 [Back to Top](#top)

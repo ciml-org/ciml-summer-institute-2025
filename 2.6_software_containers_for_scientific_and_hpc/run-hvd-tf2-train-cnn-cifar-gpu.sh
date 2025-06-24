@@ -16,12 +16,12 @@ declare -xr LUSTRE_PROJECT_DIR="/expanse/lustre/projects/${SLURM_ACCOUNT}/${USER
 declare -xr LUSTRE_SCRATCH_DIR="/expanse/lustre/scratch/mkandes/temp_project"
 declare -xr LOCAL_SCRATCH_DIR="/scratch/${USER}/job_${SLURM_JOB_ID}"
 
-declare -xr SCHEDULER_MODULE='slurm/expanse/21.08.8'
-declare -xr SOFTWARE_MODULE='gpu/0.15.4'
-declare -xr CUDA_MODULE='cuda/11.0.2'
-declare -xr MPI_MODULE='openmpi/4.0.4'
+declare -xr SCHEDULER_MODULE='slurm/expanse/23.02.7'
+declare -xr SOFTWARE_MODULE='gpu/0.17.3b'
+declare -xr COMPILER_MODULE='gcc/10.2.0'
+declare -xr MPI_MODULE='openmpi/4.1.3'
 
-declare -xr SINGULARITY_MODULE='singularitypro/3.9'
+declare -xr SINGULARITY_MODULE='singularitypro/3.11'
 declare -xr SINGULARITY_CONTAINER_DIR="${LUSTRE_SCRATCH_DIR}"
 
 module purge

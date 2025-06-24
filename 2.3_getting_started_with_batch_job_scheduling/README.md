@@ -7,13 +7,13 @@
 **Presented by:** [Marty Kandes](https://www.linkedin.com/in/marty-kandes-b53a34144) (mkandes @ucsd.edu)
 
 ### Reading and Presentations:
+
 * **Lecture material:**
    * [COMPLECS: Batch Computing: Working with the Linux Scheduler](https://education.sdsc.edu/training/interactive/?id=202502-Batch-Computing-Part-1)
    * [COMPLECS: Batch Computing: Getting Started with Batch Job Scheduling - Slurm Edition](https://education.sdsc.edu/training/interactive/?id=202403-Batch-Computing-Part-1)
    * [COMPLECS: High-Throughput and Many-Task Computing - Slurm Edition](https://education.sdsc.edu/training/interactive/?id=202410-High-Throughput%20and%20Many-Task%20Computing-%20Slurm%20Edition)
+    
 * **Source Code/Examples:**
    * https://github.com/sdsc-complecs/batch-computing
-
-### TASKS: None at this time.
 
 [Back to Top](#top)

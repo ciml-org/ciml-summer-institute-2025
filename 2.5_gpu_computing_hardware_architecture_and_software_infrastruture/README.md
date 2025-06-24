@@ -73,7 +73,7 @@ Mon Jun 27 08:39:33 2022
 +-----------------------------------------------------------------------------+
 ```
 
-### Copy the Nvidia CUDA samples into your home directory
+### Copy the Nvidia CUDA samples into the local scratch directory
 
 We will first copy the Nvidia CUDA samples from the shared CIML Summer Institute Data directory. If we work in the home directory, then this operation will take a few minutes, in particular if there are many participants copying the data at the same time, as there are many files to copy. You can try to do this in the home directory to see how much time it takes.
 

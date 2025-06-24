@@ -31,9 +31,11 @@ module load "${COMPILER_MODULE}"
 module load "${MPI_MODULE}"
 module load "${SINGULARITY_MODULE}"
 module list
-export OMPI_MCA_btl='self,vader,openib'
-export OMPI_MCA_btl_openib_if_include='mlx5_0:1'
-export OMPI_MCA_btl_openib_allow_ib='true'
+export OMPI_MCA_btl='self,vader'
+export UCX_TLS='shm,rc,ud,dc'
+export UCX_NET_DEVICES='mlx5_0:1'
+export UCX_MAX_RNDV_RAILS=1
+export KERAS_HOME="${LOCAL_SCRATCH_DIR}"
 printenv
 
-time -p mpirun -n "${SLURM_NTASKS}" singularity exec --nv "${SINGULARITY_CONTAINER_DIR}/tensorflow/tensorflow-2.8.3-ubuntu-20.04-cuda-11.2-mlnx-ofed-4.9-4.1.7.0-openmpi-4.1.3-20221008.sif" python3 -u hvd-tf2-train-cnn-cifar.py
+time -p mpirun -n "${SLURM_NTASKS}" singularity exec --bind "${KERAS_HOME}:/tmp,/expanse,/scratch" --nv "${SINGULARITY_CONTAINER_DIR}/tensorflow/tensorflow_2.15.1-openmpi-4.1.6-mofed-5.8-2.0.3.0-cuda-12.1.1-ubuntu-22.04.4-x86_64-20240316.sif" python3 -u hvd-tf2-train-cnn-cifar.py

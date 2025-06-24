@@ -27,7 +27,7 @@ declare -xr SINGULARITY_CONTAINER_DIR='/cm/shared/apps/containers/singularity'
 module purge
 module load "${SCHEDULER_MODULE}"
 module load "${SOFTWARE_MODULE}"
-module load "${CUDA_MODULE}"
+module load "${COMPILER_MODULE}"
 module load "${MPI_MODULE}"
 module load "${SINGULARITY_MODULE}"
 module list

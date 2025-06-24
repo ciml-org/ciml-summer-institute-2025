@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 #SBATCH --job-name=tf2-train-cnn-cifar-compute
-#SBATCH --account=sds184
-#SBATCH --reservation=ciml2022cpu
+#SBATCH --account=gue998
+#SBATCH --reservation=ciml2025cpu
 #SBATCH --partition=compute
 #SBATCH --qos=normal-eot
 #SBATCH --nodes=1

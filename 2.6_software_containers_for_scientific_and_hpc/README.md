@@ -19,6 +19,20 @@ srun-compute
 export SINGULARITY_CACHEDIR="/scratch/$USER/job_$SLURM_JOB_ID"
 ```
 ```
+[etrain102@exp-2-41 ~]$ module load singularitypro
+[etrain102@exp-2-41 ~]$ module list
+
+Currently Loaded Modules:
+  1) shared   2) cpu/0.17.3b (c)   3) slurm/expanse/23.02.7   4) sdsc/1.0   5) DefaultModules   6) singularitypro/3.11
+
+  Where:
+   c:  built natively for AMD Rome
+
+ 
+
+[etrain102@exp-2-41 ~]$
+```
+```
 singularity build scipy-notebook.sif docker://quay.io/jupyter/scipy-notebook:latest
 ```
 

@@ -19,7 +19,7 @@ srun-compute
 export SINGULARITY_CACHEDIR="/scratch/$USER/job_$SLURM_JOB_ID"
 ```
 ```
-singularity build scipy-notebook.sif docker://quay.io/jupyter/scipy-notebook:2024-05-27
+singularity build scipy-notebook.sif docker://quay.io/jupyter/scipy-notebook:latest
 ```
 
 [Back to Top](#top)

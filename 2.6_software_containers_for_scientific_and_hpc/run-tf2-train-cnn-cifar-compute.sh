@@ -2,7 +2,7 @@
 
 #SBATCH --job-name=tf2-train-cnn-cifar-compute
 #SBATCH --account=gue998
-#SBATCH --reservation=ciml2025cpu
+#SBATCH --reservation=ciml25cpu
 #SBATCH --partition=compute
 #SBATCH --qos=normal-eot
 #SBATCH --nodes=1

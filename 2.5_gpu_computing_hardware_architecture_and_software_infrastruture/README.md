@@ -80,9 +80,14 @@ We will first copy the Nvidia CUDA samples from the shared CIML Summer Institute
 Instead of using the home directory we will use the node-local scratch directory. Data in this directory will be purged upon job completion but this is OK as we do not need to retain the toolkit samples. Working in the the scratch directory will be very fast. This is also important when you operate with datasets and/or have heavy I/O during your ML applications.
 ```
 cd /scratch/$USER/job_$SLURM_JOB_ID
-tar xvf $CIML24_DATA_DIR/cuda-samples-v12.2.tar.gz
+tar xvf $CIML25_DATA_DIR/cuda-samples-v12.2.tar.gz
 ```
 You can look into the data directory to see if there other samples that are of interest to you. The CUDA samples have been obtained from [Nvidia's Github repository](https://github.com/nvidia/cuda-samples).
+
+For convenience, we will store the location of the CUDA samples in an environment variable:
+```
+export CUDA_SAMPLES=/scratch/$USER/job_$SLURM_JOB_ID/cuda-samples-12.2
+```
 
 We are now ready to look at the CUDA samples.
 It can be instructive to look at the source code if you want to learn about CUDA.
@@ -108,7 +113,7 @@ Build cuda_12.2.r12.2/compiler.33191640_0
 We have version 12.2 installed so we are good to go. 
 We can now move into the `device_query` source directory and compile the code with the `make` command.
 ```
-cd cuda-samples-12.2/Samples/1_Utilities/deviceQuery
+cd $CUDA_SAMPLES/Samples/1_Utilities/deviceQuery
 make
 ```
 
@@ -169,9 +174,9 @@ Result = PASS
 
 It is instructive to look at two different matrix multiplication examples and compare the performance.
 
-First we will look at a hand-written matrix multiplication. This implementation features several performance optimizations such as minimize data transfer from GPU RAM to the GPU processors and increase floating point performance.
+First we will look at a hand-written matrix multiplication. This implementation features several performance optimizations such as tiling to minimize data transfer from GPU RAM to the GPU processors and thus increasing arithmetic intensity and overall floating point performance.
 ```
-cd cuda-samples-12.2/Samples/0_Introduction/matrixMul
+cd $CUDA_SAMPLES/Samples/0_Introduction/matrixMul
 make
 ```
 We now have the executable `matrixMul` available. If we execute it,
@@ -196,7 +201,7 @@ NOTE: The CUDA Samples are not meant for performance measurements. Results may v
 
 Finally, let us look at a matrix multiplication that uses Nvidia's CUBLAS library, which is a highly optimized version of the Basic Linear Algebra System for Nvidia GPUs.
 ```
-cd cuda-samples-12.2/Samples/4_CUDA_Libraries/matrixMulCUBLAS
+cd $CUDA_SAMPLES/Samples/4_CUDA_Libraries/matrixMulCUBLAS
 make
 ```
 If we run the executable

@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 #SBATCH --job-name=hvd-tf2-train-cnn-cifar-gpu
-#SBATCH --account=sds184
-#SBATCH --reservation=ciml2022gpu
+#SBATCH --account=gue998
+#SBATCH --reservation=ciml2025gpu
 #SBATCH --partition=gpu
 #SBATCH --nodes=2
 #SBATCH --ntasks-per-node=4

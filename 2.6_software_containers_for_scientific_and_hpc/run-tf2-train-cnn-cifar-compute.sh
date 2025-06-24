@@ -17,11 +17,12 @@ declare -xr LUSTRE_SCRATCH_DIR="/expanse/lustre/scratch/mkandes/temp_project"
 declare -xr LOCAL_SCRATCH_DIR="/scratch/${USER}/job_${SLURM_JOB_ID}"
 
 declare -xr SINGULARITY_MODULE='singularitypro/3.11'
-declare -xr SINGULARITY_CONTAINER_DIR='/cm/shared/apps/containers/singularity/tensorflow'
+declare -xr SINGULARITY_CONTAINER_DIR='/cm/shared/apps/containers/singularity'
 
 module purge
 module load "${SINGULARITY_MODULE}"
 module list
+export KERAS_HOME="${LOCAL_SCRATCH_DIR}"
 printenv
 
-time -p singularity exec "${SINGULARITY_CONTAINER_DIR}/tensorflow-2.8.3-ubuntu-20.04-cuda-11.2-mlnx-ofed-4.9-4.1.7.0-openmpi-4.1.3-20221008.sif" python3 -u tf2-train-cnn-cifar.py --classes 10 --precision fp32 --epochs 42 --batch_size 256
+time -p singularity exec --bind "${KERAS_HOME}:/tmp" "${SINGULARITY_CONTAINER_DIR}/tensorflow/tensorflow_22.08-tf2-py3.sif" python3 -u tf2-train-cnn-cifar.py --classes 10 --precision fp32 --epochs 42 --batch_size 256

@@ -22,7 +22,7 @@ declare -xr COMPILER_MODULE='gcc/10.2.0'
 declare -xr MPI_MODULE='openmpi/4.1.3'
 
 declare -xr SINGULARITY_MODULE='singularitypro/3.11'
-declare -xr SINGULARITY_CONTAINER_DIR="${LUSTRE_SCRATCH_DIR}"
+declare -xr SINGULARITY_CONTAINER_DIR='/cm/shared/apps/containers/singularity/tensorflow/'
 
 module purge
 module load "${SCHEDULER_MODULE}"

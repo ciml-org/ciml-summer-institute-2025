@@ -8,13 +8,11 @@
 
 ### Reading and Presentations:
 * **Lecture material:**
-   * https://education.sdsc.edu/training/interactive/?id=202406-Data-Transfer
-   * https://github.com/sdsc/sdsc-summer-institute-2023/tree/main/3.2_data_management
+   * [COMPLECS: Data Management 1: Data Storage and File Systems](https://education.sdsc.edu/training/interactive/?id=202505-Data-Storage-and-File-Systems)
+   * [COMPLECS: Data Management 2: Data Transfer](https://github.com/sdsc/sdsc-summer-institute-2023/tree/main/3.2_data_management)
    * https://github.com/sdsc/sdsc-summer-institute-2022/tree/main/2.5_data_management
    * https://education.sdsc.edu/training/interactive/?id=202303-SDSCWebinar-Data-Management-File-Systems
-   * https://zenodo.org/records/10794824
-* **Source Code/Examples:** N/A
-
-### TASKS: None at this time.
+* **Source Code/Examples:**
+   * N/A
 
 [Back to Top](#top)

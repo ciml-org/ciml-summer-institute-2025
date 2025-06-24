@@ -2,7 +2,7 @@
 
 #SBATCH --job-name=hvd-tf2-train-cnn-cifar-gpu
 #SBATCH --account=gue998
-#SBATCH --reservation=ciml2025gpu
+#SBATCH --reservation=ciml25gpu
 #SBATCH --partition=gpu
 #SBATCH --nodes=2
 #SBATCH --ntasks-per-node=4

@@ -1,16 +1,4 @@
-# Session 2.2 Parallel Computing Concepts
+# Parallel-concepts
+This repository accompanies the Parallel Computing Concepts talk that is offered by SDSC and delivered through XSEDE, SDSC's HPC training series and other venues. It currently contains code and figures for presenting scaling data - the right way and the wrong way - and illustrating the limits on scalability imposed by Amdahl's Law. This is a work in progress and new content will be added as necessary.
 
-**Date:** Tuesday, June 24, 2025
-
-**Summary**: We will cover supercomputer architectures, the differences between threads and processes, implementations of parallelism (e.g., OpenMP and MPI), strong and weak scaling, limitations on scalability (Amdahl’s and Gustafson’s Laws) and benchmarking. 
-
-**Presented by:** [Robert Sinkovits](https://www.sdsc.edu/research/researcher_spotlight/sinkovits_robert.html) (sinkovit @sdsc.edu)
-
-### Reading and Presentations:
-* **Lecture material:**
-   * Presentation Slides: will be made available closer to the session
-* **Source Code/Examples:** N/A
-
-### TASKS: None at this time.
-
-[Back to Top](#top)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sdsc-complecs/Parallel-computing-concepts/HEAD)

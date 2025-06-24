@@ -36,4 +36,4 @@ export OMPI_MCA_btl_openib_if_include='mlx5_0:1'
 export OMPI_MCA_btl_openib_allow_ib='true'
 printenv
 
-time -p mpirun -n "${SLURM_NTASKS}" singularity exec --nv "${SINGULARITY_CONTAINER_DIR}/tensorflow-2.8.2-ubuntu-20.04-cuda-11.2-mlnx-ofed-4.9-4.1.7.0-openmpi-4.1.3.sif" python3 -u hvd-tf2-train-cnn-cifar.py
+time -p mpirun -n "${SLURM_NTASKS}" singularity exec --nv "${SINGULARITY_CONTAINER_DIR}/tensorflow-2.8.3-ubuntu-20.04-cuda-11.2-mlnx-ofed-4.9-4.1.7.0-openmpi-4.1.3-20221008.sif" python3 -u hvd-tf2-train-cnn-cifar.py

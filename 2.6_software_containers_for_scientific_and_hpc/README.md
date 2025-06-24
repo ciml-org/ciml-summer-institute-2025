@@ -8,7 +8,6 @@
 
 ### Reading and Presentations:
 * **Lecture material:**
-    - https://jupyter-docker-stacks.readthedocs.io/en/latest/
 * **Source Code/Examples:**
 
 Download a container from a Docker registry.
@@ -19,7 +18,5 @@ Download a container from a Docker registry.
   ```
   singularity build scipy-notebook.sif docker://quay.io/jupyter/scipy-notebook:2024-05-27
   ```
-    
-### TASKS: None at this time.
 
 [Back to Top](#top)

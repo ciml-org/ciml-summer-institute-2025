@@ -1,0 +1,29 @@
+name: pytorch-lightning-gpu
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - anaconda
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.8
+  - pytorch-lightning=2.5.0
+  - torchmetrics=1.6.3
+  - numpy=1.26.4
+  - pandas=2.2.3
+  - matplotlib=3.9.2
+  - pillow=10.4.0
+  - scikit-learn=1.6.1
+  - scipy=1.12.0
+  - tqdm=4.67.1
+  - jupyterlab=4.2.6
+  - ipywidgets=8.1.5
+  - tensorboard=2.11.2
+  - pip
+  - pip:
+      - torchsummary==1.5.1
+      - lightning-utilities==0.14.1
+      - protobuf==3.20.1  

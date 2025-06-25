@@ -4,12 +4,14 @@
 
 **Summary**: Set up reproducible and transferable software environments and scale up calculations to large datasets using parallel computing.
 
-**Presented by:** [Mary Thomas](https://www.sdsc.edu/research/researcher_spotlight/thomas_mary.html)  ( mpthomas  @  ucsd.edu ) 
+**Presented by:** Marty Kandes  ( mkandes  @  ucsd.edu ) 
 
 ### Reading and Presentations:
+
 * **Lecture material:**
    * [Presentation slides]
-* **Source Code/Examples:** [df-parallel](https://github.com/sbl-sdsc/df-parallel.git)
+* **Source Code/Examples:**
+  * [df-parallel](https://github.com/sbl-sdsc/df-parallel.git)
 
 -----
 

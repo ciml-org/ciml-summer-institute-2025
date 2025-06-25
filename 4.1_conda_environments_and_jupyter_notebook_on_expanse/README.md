@@ -16,7 +16,7 @@
 ## TASK 1: Launch Jupyter Lab on Expanse using a CONDA environment
 For this task you will launch a Jupyter Lab session on an Expanse GPU node using a CONDA environment
 
-1. Open a Terminal Window ("expanse Shell Access") through the [Expanse Portal](https://portal.expanse.sdsc.edu/training)
+1. Open a Terminal window and login to Expanse. You can also use the interactive shell available on the [Expanse Portal](https://portal.expanse.sdsc.edu/training)
 
 2. Clone the Git repository df-parallel
 ```

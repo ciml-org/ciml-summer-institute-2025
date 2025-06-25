@@ -27,10 +27,10 @@ git clone https://github.com/sbl-sdsc/df-parallel.git
 
    This script will generate a URL for your Jupyter Lab session.
 ```
-galyleo launch --account ${CIML24_ACCOUNT} --reservation ${CIML24_RES_GPU} --qos ${CIML24_QOS_GPU} --partition gpu-shared --cpus 10 --memory 92 --gpus 1 --time-limit 01:30:00 --conda-env df-parallel-gpu --conda-yml "${HOME}/df-parallel/environment-gpu.yml" --mamba --quiet
+galyleo launch --account ${CIML25_ACCOUNT} --reservation ${CIML25_RES_GPU} --qos ${CIML25_QOS_GPU} --partition gpu-shared --cpus 10 --memory 92 --gpus 1 --time-limit 01:30:00 --conda-yml "${HOME}/df-parallel/environment-gpu.yml" --mamba --cache --quiet
 ```
 
-> The arguments ```--reservation ${CIM24_RES_GPU} --qos ${CIM24_QOS_GPU}``` are only active during the CIML workshop. Remove these arguments when running this example outside of the workshop and specify your project account number.
+> The arguments ```--reservation ${CIM25_RES_GPU} --qos ${CIM25_QOS_GPU}``` are only active during the CIML workshop. Remove these arguments when running this example outside of the workshop and specify your project account number.
 
 4. Open a new tab in your web browser and paste the Jupyter Lab URL.  
 

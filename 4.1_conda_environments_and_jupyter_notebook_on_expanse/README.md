@@ -8,8 +8,6 @@
 
 ### Reading and Presentations:
 
-* **Lecture material:**
-   * [Presentation slides]
 * **Source Code/Examples:**
   * [df-parallel](https://github.com/sbl-sdsc/df-parallel.git)
 

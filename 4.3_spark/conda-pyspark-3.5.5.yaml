@@ -1,0 +1,11 @@
+name: pyspark
+  
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - pyspark=3.5.5
+  - jupyterlab
+  - matplotlib
+
